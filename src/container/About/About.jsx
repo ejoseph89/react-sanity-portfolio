@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 import { images } from "../../constants/index";
-
 
 const About = () => {
   return (
@@ -25,7 +24,12 @@ const About = () => {
             After graduating and starting my career as a social worker, I
             discovered my interest in design and web development. I learned the
             basics from online courses and later, decided to enroll at{" "}
-            <a href="" className="text-accent font-semibold">
+            <a
+              href="https://www.sait.ca/"
+              className="text-accent font-semibold"
+              target="_blank"
+              rel="noreferrer"
+            >
               SAIT
             </a>{" "}
             for formal training.
@@ -49,6 +53,6 @@ const About = () => {
       </div>
     </section>
   );
-}
+};
 
-export default About
+export default About;
