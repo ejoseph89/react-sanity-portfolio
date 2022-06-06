@@ -25,20 +25,26 @@ const Header = () => {
             </h1>
             <div className="flex text-primary text-xl justify-center md:justify-start">
               <a
-                href=""
+                href="https://github.com/ejoseph89?tab=repositories"
                 className="transition ease-in hover:text-accent duration-150 mr-3"
+                target="_blank"
+                rel="noreferrer"
               >
                 <FaGithub />
               </a>
               <a
-                href=""
+                href="https://www.linkedin.com/in/ejoseph89/"
                 className="transition ease-in hover:text-accent duration-150 mr-3"
+                target="_blank"
+                rel="noreferrer"
               >
                 <FaLinkedinIn />
               </a>
               <a
-                href=""
+                href="mailto:emiljoseph89@gmail.com"
                 className="transition ease-in hover:text-accent duration-150 mr-3"
+                target="_blank"
+                rel="noreferrer"
               >
                 <FaEnvelope />
               </a>
