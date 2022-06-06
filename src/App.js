@@ -3,7 +3,7 @@ import React from "react";
 import { ThemeProvider } from "./context/themeContext/themeContext";
 
 import { About, Footer, Header, Skills, Work } from "./container/index";
-import { Navbar } from "./components";
+import { Clients, Navbar } from "./components";
 
 function App() {
   return (
@@ -13,8 +13,9 @@ function App() {
         <Header />
         <About />
         <Skills />
-        {/* <Work /> */}
-        {/* <Footer /> */}
+        {/* <Clients /> */}
+        <Work />
+        <Footer />
       </div>
     </ThemeProvider>
   );

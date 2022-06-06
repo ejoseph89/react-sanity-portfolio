@@ -17,7 +17,7 @@ const About = () => {
           transition={{ duration: 0.5 }}
           className="p-5 md:p-10 font-poppins text-center md:text-left mt-8 md:mt-0 md:w-2/3 md:pl-5 text-primary "
         >
-          <p className="text-accent font-semibold">about me</p>
+          <p className="text-accent font-semibold">&lt;about me&gt;</p>
           <h2 className="text-xl md:text-2xl xl:text-4xl py-2">
             I'm a graduate of the web development certificate program at SAIT.
           </h2>
@@ -25,11 +25,14 @@ const About = () => {
             After graduating and starting my career as a social worker, I
             discovered my interest in design and web development. I learned the
             basics from online courses and later, decided to enroll at{" "}
-            <a href="" className='text-accent font-semibold'>SAIT</a> for formal training.
+            <a href="" className="text-accent font-semibold">
+              SAIT
+            </a>{" "}
+            for formal training.
           </p>
           <p className="font-light lg:text-xl py-3">
-            When I'm not working or learning (as of now, React), I enjoy
-            spending time with my family, being outdoors, and reading.
+            When I'm not working or learning, I enjoy spending time with my
+            family, being outdoors, and reading.
           </p>
         </motion.div>
         <motion.div

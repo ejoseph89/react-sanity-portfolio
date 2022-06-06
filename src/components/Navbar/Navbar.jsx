@@ -9,11 +9,13 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false)
 
   return (
-    <nav className="fixed top-0 left-0 right-0 p-5 text-primary bg-secondary">
+    <nav className="fixed top-0 left-0 right-0 p-5 text-primary bg-secondary z-10">
       <section className="max-w-screen-xl mx-auto flex justify-between">
-        <span className="font-poppins text-lg font-semibold text-accent">
-          &lt;EmilJoseph&gt;
-        </span>
+        <a href="#home">
+          <span className="font-poppins text-lg font-semibold text-accent">
+            &lt;EmilJoseph&gt;
+          </span>
+        </a>
         {/* menu */}
         <div className="hidden sm:flex">
           <ul className="flex mr-24">
