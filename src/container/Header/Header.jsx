@@ -60,7 +60,7 @@ const Header = () => {
               I'm a frontend developer from Calgary, Alberta.
             </h2>
             <p className="font-light lg:text-xl py-3">
-              I have a passion for bringing good design to life! I am currently
+              I have a passion for bringing good design to life. I am currently
               working as a web developer at Amped2Play.
             </p>
           </motion.div>
