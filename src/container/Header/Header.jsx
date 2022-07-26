@@ -55,7 +55,7 @@ const Header = () => {
             transition={{ duration: 0.5 }}
             className="font-poppins text-center md:text-left mt-8 md:mt-0 text-primary"
           >
-            <p className="text-accent font-semibold">&lt;hello&gt;</p>
+            <p className="text-accent font-semibold">&lt;hello!&gt;</p>
             <h2 className="text-xl md:text-3xl xl:text-4xl py-2">
               I'm a frontend developer from Calgary, Alberta.
             </h2>
