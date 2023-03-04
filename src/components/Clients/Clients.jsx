@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from 'react'
+import { useState, useEffect } from "react";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 import { urlFor, client } from "../../client";
 
 const Clients = () => {
@@ -29,6 +29,6 @@ const Clients = () => {
       </div>
     </motion.div>
   );
-}
+};
 
-export default Clients
+export default Clients;
